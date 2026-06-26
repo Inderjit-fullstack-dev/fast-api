@@ -5,6 +5,12 @@
 # - Print all the animals
 # - Print only the first 3 animals
 
+# the following statement will import all the function inside calc.py
+# from calc import *
+from calc import square
+
+print(square(5))
+
 zoo = ["Lion", "Monkey", "Elephant", "Tiger", "Deer"]
 zoo.pop(2)
 zoo.append("Penguin")

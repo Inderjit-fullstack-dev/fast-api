@@ -1,7 +1,7 @@
-def add(a, b):
-    return a+b
+import calc as math_lib
 
-print(add(1, 2))
+
+print(math_lib.add(1, 2))
 
 # Variable length argument
 def add2(*args):
